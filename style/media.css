@@ -1,0 +1,110 @@
+/* Create a responsive navigation menu (displayed horizontally on large screens and vertically on small screens) */
+@media screen and (max-width: 992px) {
+    .home {
+        height: 200vh;
+    }
+
+    .home .container .content {
+        width: 90%;
+    }
+
+    .home .img {
+        width: 90%;
+        order: -1;
+    }
+
+    /* chef section */
+    .chefs {
+
+        height: 260vh;
+    }
+
+    .chefs .container .cards .card {
+        width: 49%;
+    }
+
+    /* gallery section */
+
+    .gallery {
+        height: 450vh;
+    }
+
+    .gallery .container .images .coulmn {
+        width: 49%;
+    }
+
+    /* contact section */
+
+    .contact {
+        height: 250vh;
+    }
+    /* footer section */
+    .footer {
+        height: 100vh;
+    }
+    .footer .container .about{
+        width: 49%;
+    }
+    .footer .container .contacts{
+        width: 49%;
+    }
+    .footer .container .get{
+        width: 49%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        height: 230vh;
+    }
+
+    .home .container .content {
+        width: 100%;
+    }
+
+    .home .img {
+        width: 100%;
+        order: -1;
+    }
+
+    /* chef section */
+    .chefs {
+
+        height: 500vh;
+    }
+
+    .chefs .container .cards .card {
+        width: 99%;
+    }
+
+    /* gallery section */
+
+    .gallery {
+        height: 800vh;
+    }
+
+    .gallery .container .images .coulmn {
+        width: 99%;
+    }
+
+    /* contact section */
+
+    .contact {
+        height: 300vh;
+    }
+
+    /* footer section */
+    .footer {
+        height: 150vh;
+    }
+    .footer .container .about{
+        width: 99%;
+    }
+    .footer .container .contacts{
+        width: 99%;
+    }
+    .footer .container .get{
+        width: 99%;
+    }
+}
